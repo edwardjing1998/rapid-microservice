@@ -1,4 +1,4 @@
-package rapid.repositories;
+package rapid.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import rapid.model.User;

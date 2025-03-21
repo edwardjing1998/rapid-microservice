@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import rapid.dto.DocumentInput;
 import rapid.model.Document;
-import rapid.repositories.BookRepository;
+import rapid.repository.BookRepository;
 
 import java.util.List;
 import java.util.Optional;

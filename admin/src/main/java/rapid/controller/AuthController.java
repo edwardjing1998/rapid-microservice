@@ -12,8 +12,8 @@ import rapid.dto.LoginRequest;
 import rapid.dto.RegisterRequest;
 import rapid.model.Authority;
 import rapid.model.User;
-import rapid.repositories.AuthorityRepository;
-import rapid.repositories.UserRepository;
+import rapid.repository.AuthorityRepository;
+import rapid.repository.UserRepository;
 
 import java.util.Collections;
 

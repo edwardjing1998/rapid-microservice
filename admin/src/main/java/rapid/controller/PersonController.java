@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import rapid.dto.PersonInput;
 import rapid.model.Person;
 import rapid.model.UserRole;
-import rapid.repositories.PersonRepository;
+import rapid.repository.PersonRepository;
 
 @RestController
 @RequestMapping("/api")

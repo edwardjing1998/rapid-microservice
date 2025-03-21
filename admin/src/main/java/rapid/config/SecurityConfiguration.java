@@ -17,7 +17,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import rapid.filter.JwtAuthenticationFilter;
-import rapid.services.UserDetailsServiceImpl;
+import rapid.service.UserDetailsServiceImpl;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -61,7 +61,7 @@ public class SecurityConfiguration {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
 
-        configuration.setAllowedOrigins(List.of("http://localhost:4200", "http://localhost:61130"));
+        configuration.setAllowedOrigins(List.of("http://localhost:4200", "http://localhost:3000"));
 
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("Authorization", "Cache-Control", "Content-Type"));
