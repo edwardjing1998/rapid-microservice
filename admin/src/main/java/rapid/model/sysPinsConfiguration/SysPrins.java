@@ -114,10 +114,10 @@ public class SysPrins {
     private String addrFlag;
 
     @Column(name = "TEMP_AWAY")
-    private String tempAway;
+    private Long tempAway;
 
-    @Column(name = "RSPS")
-    private String rsps;
+    @Column(name = "RSP")
+    private String rsp;
 
     @Column(name = "SESSION")
     private String session;
@@ -125,17 +125,14 @@ public class SysPrins {
     @Column(name = "BAD_STATE")
     private String badState;
 
-    @Column(name = "N_BAD_STATE")
-    private String nBadState;
-
-    @Column(name = "N_A_STAT_RCK")
-    private String nAStatRck;
+    @Column(name = "A_STAT_RCH")
+    private String aStatRch;
 
     @Column(name = "NM_13")
     private String nm13;
 
     @Column(name = "TEMP_AWAY_ATTS")
-    private String tempAwayAtts;
+    private Long tempAwayAtts;
 
     @Column(name = "REPORT_METHOD")
     private String reportMethod;
@@ -157,4 +154,9 @@ public class SysPrins {
 
     @Column(name = "DES_STAT")
     private String destroyStatus;
+
+    @Column(name = "NON_US")
+    private String nonUS;
+
+
 }

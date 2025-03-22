@@ -77,11 +77,10 @@ public class SysPrinsService {
         dto.setBlockCard(sysPrins.getBlockCard());
         dto.setAddrFlag(sysPrins.getAddrFlag());
         dto.setTempAway(sysPrins.getTempAway());
-        dto.setRsps(sysPrins.getRsps());
+        dto.setRsp(sysPrins.getRsp());
         dto.setSession(sysPrins.getSession());
         dto.setBadState(sysPrins.getBadState());
-        dto.setNBadState(sysPrins.getNBadState());
-        dto.setNAStatRck(sysPrins.getNAStatRck());
+        dto.setAStatRch(sysPrins.getAStatRch());
         dto.setNm13(sysPrins.getNm13());
         dto.setTempAwayAtts(sysPrins.getTempAwayAtts());
         dto.setReportMethod(sysPrins.getReportMethod());
@@ -91,6 +90,7 @@ public class SysPrinsService {
         dto.setNotes(sysPrins.getNotes());
         dto.setDestroyStatus(sysPrins.getDestroyStatus());
         dto.setReturnStatus(sysPrins.getReturnStatus());
+        dto.setNonUS(sysPrins.getNonUS());
         return dto;
     }
 

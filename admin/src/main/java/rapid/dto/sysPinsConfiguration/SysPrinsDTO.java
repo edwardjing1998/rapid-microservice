@@ -40,14 +40,13 @@ public class SysPrinsDTO {
     private String noRenewal;
     private String blockCard;
     private String addrFlag;
-    private String tempAway;
-    private String rsps;
+    private Long tempAway;
+    private String rsp;
     private String session;
     private String badState;
-    private String nBadState;
-    private String nAStatRck;
+    private String aStatRch;
     private String nm13;
-    private String tempAwayAtts;
+    private Long tempAwayAtts;
     private String reportMethod;
     private String contact;
     private String phone;
@@ -55,5 +54,6 @@ public class SysPrinsDTO {
     private String notes;
     private String returnStatus;
     private String destroyStatus;
+    private String nonUS;
 }
 
