@@ -77,9 +77,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.11.0</version> <!-- Ensure this is the latest -->
                 <configuration>
-                    <source>23</source>
+                    <source>23</source> <!-- Match your JDK version -->
                     <target>23</target>
                     <annotationProcessorPaths>
                         <path>
@@ -89,22 +89,7 @@
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
-
-                <!-- 👇 Dependency overrides to avoid quarantined artifacts -->
-                <dependencies>
-                    <dependency>
-                        <groupId>org.codehaus.plexus</groupId>
-                        <artifactId>plexus-utils</artifactId>
-                        <version>3.0.24</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>org.apache.maven</groupId>
-                        <artifactId>maven-core</artifactId>
-                        <version>3.8.8</version> <!-- Use a newer version instead of 3.0 -->
-                    </dependency>
-                </dependencies>
             </plugin>
-            
         </plugins>
     </build>
 </project>
